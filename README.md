@@ -1,7 +1,21 @@
-## Step to run Test:
+## Step to Run Tests
 
-#1 install dependencies: **npm install**
+1. **Install dependencies**  
+   ```bash
+   npm install
+   ```
 
-#2 run "**npm test**" to run all test file
+2. **Run all test files**  
+   ```bash
+   npm test
+   ```
 
-#3 run "**npm test {file-name}**" to run specific test file (example **npm test sort**)
+3. **Run a specific test file**  
+   ```bash
+   npm test {file-name}
+   ```
+
+   Replace `{file-name}` with part of the file name. Example:
+   ```bash
+   npm test sort
+   ```
